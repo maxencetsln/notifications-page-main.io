@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(211, 68%, 94%);
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    padding: 10px 25px 10px 25px;
+    border-radius: 2em;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+}
+
+.number {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-left: 10px;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid hsl(224, 21%, 14%);
+    background-color: hsl(224, 21%, 14%);
+    border-radius: 0.5em;
+}
+
+.buttonNotif:hover {
+    cursor: pointer;
+    color: hsl(219, 85%, 26%);
+}
+
+.notif {
+    display: flex;
+    align-items: center;
+    border-radius: 0.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.notifActive {
+    background-color: hsl(205, 33%, 90%);
+}
+
+.notifActive:hover {
+    cursor: pointer;
+}
+
+.notifInactive {
+    background-color: white;
+}
+
+.userPicture {
+    width: 50px;
+    margin: 10px;
+}
+
+.userName {
+    color: black;
+    font-weight: 800;
+    margin-right: 5px;
+}
+
+.userName:hover {
+    cursor: pointer;
+    color: hsl(219, 85%, 26%);
+}
+
+p {
+    color: hsl(219, 14%, 63%);
+    margin: 0px 5px 0px 0px;
+}
+
+p.comment {
+    border: 1px solid rgba(128, 128, 128, 0.171);
+    border-radius: 0.5em;
+    padding: 12px;
+}
+
+p.comment:hover {
+    cursor: pointer;
+    background-color: hsl(211, 68%, 94%);
+}
+
+.commentPicture {
+    margin-left: 150px;
+}
+
+.userGetNotifications {
+    font-weight: 800;  
+}
+
+.circle {
+    color: red;
+}
+
+
+.userGetNotifications:hover {
+    cursor: pointer;
+    color: hsl(219, 85%, 26%);  
+}
+
+@media screen and (max-width: 900px) {
+    main {
+      width: 100%;
+      border-radius: 0em;
+      padding: 0;
+    }
+    .commentPicture {
+        margin-left: 15px;
+    }
+  }

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css" media="screen" type="text/css" /> 
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="menu"> 
+      <h1>Notifications <button class="number">3</button> </h1>
+      <div class="buttonNotif"> Mark all as read </div>
+    </div>
+    
+    <div class="userFeed"> 
+
+        <div class="notif notifActive">
+          <img class="userPicture" src="assets/images/avatar-mark-webber.webp" alt="ProfileUser" />
+          <div class="notifText"> 
+            <p> <span class="userName"> Mark Webber </span> reacted to your recent post <span class="userGetNotifications"> first tournament today! </span> <span class="circle"> ● </span> </p>
+            <p> 1m ago </p>
+          </div>
+        </div>
+      
+        <div class="notif notifActive">
+          <img class="userPicture" src="assets/images/avatar-angela-gray.webp" alt="ProfileUser" />
+          <div class="notifText"> 
+            <p> <span class="userName"> Angela Gray </span> followed you </p>
+            <p> 5m ago </p>
+          </div>
+        </div>
+      
+        <div class="notif notifActive">
+          <img class="userPicture" src="assets/images/avatar-jacob-thompson.webp" alt="ProfileUser" />
+          <div class="notifText"> 
+            <p> <span class="userName"> Jacob Thompson </span> has joined your group <span class="userGetNotifications"> Chess Club  <span class="circle"> ● </span> </span> </p>
+            <p> 1 day ago </p>
+          </div>
+        </div>
+      
+        <div class="notif">
+          <img class="userPicture" src="assets/images/avatar-rizky-hasanuddin.webp" alt="ProfileUser" />
+          <div class="notifText"> 
+          <p> <span class="userName"> Rizky Hasanuddin  </span> sent you a private message </p>
+          <p> 5 days ago </p>
+          <p class="comment"> Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+            I'm already having lots of fun and improving my game. </p>
+          </div>
+          </div>
+        
+
+        <div class="notif">
+          <img class="userPicture" src="assets/images/avatar-kimberly-smith.webp" alt="ProfileUser" />
+          <div class="notifText">
+            <p> <span class="userName"> Kimberly Smith </span> commented on your picture </p>
+            <p> 1 week ago </p>
+          </div>
+          <div class="commentPicture"><img class="userPicture" src="assets/images/image-chess.webp" alt="ProfileUser" /> </div>
+        </div>
+      
+        <div class="notif">
+          <img class="userPicture" src="assets/images/avatar-nathan-peterson.webp" alt="ProfileUser" />
+          <div class="notifText">
+            <p> <span class="userName"> Nathan Peterson </span> reacted to your recent post 5 end-game strategies to increase your win rate </p>
+            <p> 2 weeks ago </p>
+          </div>
+        </div>
+
+        <div class="notif">
+          <img class="userPicture" src="assets/images/avatar-anna-kim.webp" alt="ProfileUser" />
+          <div class="notifText"> 
+            <p> <span class="userName"> Anna Kim </span>left the group <span class="userNotifications"> Chess Club </span> </p>
+            <p> 2 weeks ago </p>
+          </div>
+        </div>
+    </div>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/maxencetsln">maxencetsln</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
